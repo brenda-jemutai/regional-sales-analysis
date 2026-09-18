@@ -1,0 +1,20 @@
+WITH salesperson_totals AS (
+  SELECT
+    Region,
+    Salesperson,
+    SUM(Amount) AS total_sales
+  FROM Sheet1
+  GROUP BY Region, Salesperson
+)
+SELECT
+  Region,
+  Salesperson,
+  total_sales,
+  RANK() OVER (PARTITION BY Region ORDER BY total_sales DESC) AS rank_in_region,
+  CASE
+    WHEN total_sales >= 100000 THEN 'Top Performer'
+    WHEN total_sales >= 50000  THEN 'Mid Performer'
+    ELSE 'Needs Support'
+  END AS performance_tier
+FROM salesperson_totals
+ORDER BY Region, rank_in_region;
