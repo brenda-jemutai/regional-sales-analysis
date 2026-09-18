@@ -1,0 +1,26 @@
+# Excel Analysis Notes
+
+## Objective
+Build a self-serve summary of the sales dataset (Date, Region, Product, Salesperson, Amount) that a manager could open directly, without needing SQL.
+
+## Techniques Used
+
+### Lookups
+- **XLOOKUP** / **INDEX-MATCH** — pulled salesperson details and region metadata into the working sheet without manual re-entry.
+
+### Conditional Summaries
+- **SUMIF** — totaled revenue by region and by product.
+- **COUNTIF** — counted transactions by region and by product.
+
+### PivotTable & PivotChart
+- Built a PivotTable breaking down total sales by **Region × Product**.
+- Added a PivotChart to visualize the split.
+
+### Formatting
+- Applied conditional formatting to flag underperforming products at a glance.
+
+## Key Findings
+*(to be added once the workbook is finalized)*
+
+## Status
+Workbook in progress — this file will be replaced with the actual `.xlsx` file once complete.
