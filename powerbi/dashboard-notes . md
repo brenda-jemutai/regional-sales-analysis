@@ -1,0 +1,20 @@
+# Power BI Dashboard Notes
+
+## Data Model
+- Source table: Sheet1 (Date, Region, Product, Salesperson, Amount)
+- Dedicated Date table created and marked as the official date table, linked to Sheet1 for time intelligence.
+
+## Core Measure
+Total Sales = SUM(Sheet1[Amount])
+
+## Visuals Built
+- Table — raw summary view of sales records.
+- Clustered Bar Chart — Total Sales by Region.
+- Slicer — filters the whole page by Region.
+
+## In Progress
+- Time intelligence measures (YTD, month-over-month) using the Date table.
+- Publishing the report to Power BI Service for a shareable link.
+
+## Status
+Dashboard in progress — screenshots and the .pbix file will be added once complete.
