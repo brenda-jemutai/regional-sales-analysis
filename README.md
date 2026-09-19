@@ -19,7 +19,9 @@ This project analyzes a 150-record sales dataset (Date, Region, Product, Salespe
 - `powerbi/` — Power BI dashboard file and screenshots
 
 ## 🔍 Key Insights
-*(to be added once analysis is finalized)*
+- Nairobi leads in total sales among the four regions, with Nakuru and Mombasa close behind.
+- Kisumu records the lowest total sales, suggesting an opportunity for targeted sales support or promotions there.
+- The dashboard includes a Sales YTD (Year-to-Date) measure to track cumulative performance over time.
 
 ## 📄 Full Case Study
 Coming soon — link to the detailed write-up.
