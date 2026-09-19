@@ -24,7 +24,7 @@ This project analyzes a 150-record sales dataset (Date, Region, Product, Salespe
 - The dashboard includes a Sales YTD (Year-to-Date) measure to track cumulative performance over time.
 
 ## 📄 Full Case Study
-Coming soon — link to the detailed write-up.
+See the full write-up: [case-study.md](case-study.md)
 
 ## 👤 About
 Brenda Jemutai — Aspiring Data Analyst | Nairobi, Kenya
